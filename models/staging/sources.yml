@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: postgres_oltp
+    schema: public
+    database: pg_source
+
+    tables:
+      - name: cliente
+      - name: empleado
+      - name: orden_venta
+      - name: venta
+      - name: producto
+      - name: orden_productos
