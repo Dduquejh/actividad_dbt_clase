@@ -1,3 +1,19 @@
+Se crea usando ambiente de conda tal como fue especificado en la actividad
+
+``` bash
+conda create -n actividad_dbt python=3.12 -y
+conda activate actividad_dbt
+pip install dbt-duckdb
+
+dbt --version
+dbt init ventas_dbt
+cd ventas_dbt
+```
+
+
+Se agrega también el archivo consultar_duckdb.py para ver la estructura de la salida de ventas_olap.duckdb
+
+
 Welcome to your new dbt project!
 
 ### Using the starter project
